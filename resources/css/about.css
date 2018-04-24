@@ -1,0 +1,87 @@
+/* About Page */
+
+.about h1 {
+  width: 100%;
+  padding: 10.5rem 0;
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 60px;
+  font-stretch: condensed;
+  color: hsla(0, 100%, 100%, 1);
+
+}
+
+.transparent {
+  width: 100%;
+/*  height: 21.75rem;*/
+  background-color: rgba(0, 0, 0, 0.74);
+}
+
+.about .information {
+  padding: 3.75rem 20% 6.75rem 20%;
+  color: hsla(0, 0%, 29%, 1);
+}
+
+.about h3 {
+  margin-bottom: 1rem;
+  font-size: 40px;
+}
+
+.title {
+    margin-top: 1.5rem;
+}
+
+.about p {
+  padding-bottom: 2rem;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.about .join {
+  display: inline-grid;
+  justify-items: center;
+    justify-content: space-around;
+  padding: 1.5rem 6.5rem;
+  border: solid 1px #9d9b9b;
+  border-radius: 2px;
+  background-color: hsla(0, 0%, 100%, 1);
+}
+
+.about .join .button{
+    background-color: #a06549;
+}
+
+@media only screen and (max-width: 735px) {
+  .about h1 {
+    font-size: 4rem;
+  }
+    
+    .about .information {
+  padding: 1rem;
+}
+    
+.about .join {
+
+  padding: 1rem 1rem;
+    margin-bottom: 1rem;
+
+}
+    
+}
+
+@media only screen and (max-width: 490px) {
+  .about h1 {
+    font-size: 3rem;
+  }
+    
+  .about h3 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+    
+
